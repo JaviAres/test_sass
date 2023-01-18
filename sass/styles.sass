@@ -1,0 +1,62 @@
+@import "mixins.sass";
+$ancho : 1280px;
+$color-letra : #AAAABB;
+$altura : 514px;
+
+.contenedor
+    width: $ancho;
+
+
+h1,h2,h3,p
+    color: $color-letra;
+
+.contenedor-con-altura
+    @extend .contenedor;
+    height: $altura;
+
+ul
+    font-size: 1.2rem;
+    color: red;
+    ul
+        color: blue;
+        ul
+            color: black;
+
+a
+    color: blue;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    &:hover
+        color: green;
+        text-decoration: underline;
+    &.enlace_propio
+        color: red;
+
+.cuarto
+    width: ($ancho/4);    
+
+
+.octavo
+    width: ($ancho/8);
+
+
+@function partir ($tam,$num_partes)
+    @return ($tam/$num_partes);
+
+
+.decimo
+    width: partir($ancho,10);
+
+
+.box
+    @include border-radius(10px);
+
+@for $p from 2 through 12
+        .col-#{$p}
+             width: 100/$p+"%";
+
+$a: 2;
+@while $a <=12
+    .col-while-#{$a}
+        width: 100/$a+"%";
+    $a: $a+1;

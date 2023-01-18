@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style1.css",
+	"sources": [
+		"../sass/style1.scss"
+	],
+	"sourcesContent": [
+		"$ancho : 1024px;\r\n$color-letra : #AAAAAA;\r\n$altura : 514px;\r\n\r\n.contenedor{   \r\n    width: $ancho;\r\n}\r\n \r\n\r\n\r\nh1,h2,h3,p{\r\n    color: $color-letra;\r\n}\r\n.contenedor-con-altura{\r\n    @extend .contenedor;\r\n    height: $altura;\r\n}\r\nul{\r\n    font-size: 1.2rem;\r\n    color: red;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,WAAW,EASX,sBAAsB,CATX;EACP,KAAK,EALA,MAAM;CAMd;;;AAID,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,CAAC,CAAA;EACN,KAAK,EAVM,OAAO;CAWrB;;;AACD,AAAA,sBAAsB,CAAA;EAElB,MAAM,EAbA,KAAK;CAcd;;;AACD,AAAA,EAAE,CAAA;EACE,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,GAAG;CACb"
+}

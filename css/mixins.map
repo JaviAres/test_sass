@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mixins.css",
+	"sources": [
+		"../sass/mixins.sass"
+	],
+	"sourcesContent": [
+		"@mixin border-radius($radius) {\n    -webkit-border-radius: $radius;\n    -moz-border-radius: $radius;\n    -ms-border-radius: $radius;\n    border-radius: $radius; }\n"
+	],
+	"names": [],
+	"mappings": ""
+}

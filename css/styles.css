@@ -1,0 +1,183 @@
+/* line 6, ../test_sass/test_sass/sass/styles.sass */
+.contenedor, .contenedor-con-altura {
+  width: 1280px;
+}
+
+/* line 10, ../test_sass/test_sass/sass/styles.sass */
+h1, h2, h3, p {
+  color: #AAAABB;
+}
+
+/* line 13, ../test_sass/test_sass/sass/styles.sass */
+.contenedor-con-altura {
+  height: 514px;
+}
+
+/* line 17, ../test_sass/test_sass/sass/styles.sass */
+ul {
+  font-size: 1.2rem;
+  color: red;
+}
+
+/* line 20, ../test_sass/test_sass/sass/styles.sass */
+ul ul {
+  color: blue;
+}
+
+/* line 22, ../test_sass/test_sass/sass/styles.sass */
+ul ul ul {
+  color: black;
+}
+
+/* line 25, ../test_sass/test_sass/sass/styles.sass */
+a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+/* line 29, ../test_sass/test_sass/sass/styles.sass */
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* line 32, ../test_sass/test_sass/sass/styles.sass */
+a.enlace_propio {
+  color: red;
+}
+
+/* line 35, ../test_sass/test_sass/sass/styles.sass */
+.cuarto {
+  width: 320px;
+}
+
+/* line 39, ../test_sass/test_sass/sass/styles.sass */
+.octavo {
+  width: 160px;
+}
+
+/* line 47, ../test_sass/test_sass/sass/styles.sass */
+.decimo {
+  width: 128px;
+}
+
+/* line 51, ../test_sass/test_sass/sass/styles.sass */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-2 {
+  width: "50%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-3 {
+  width: "33.33333%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-4 {
+  width: "25%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-5 {
+  width: "20%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-6 {
+  width: "16.66667%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-7 {
+  width: "14.28571%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-8 {
+  width: "12.5%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-9 {
+  width: "11.11111%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-10 {
+  width: "10%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-11 {
+  width: "9.09091%";
+}
+
+/* line 55, ../test_sass/test_sass/sass/styles.sass */
+.col-12 {
+  width: "8.33333%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-2 {
+  width: "50%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-3 {
+  width: "33.33333%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-4 {
+  width: "25%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-5 {
+  width: "20%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-6 {
+  width: "16.66667%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-7 {
+  width: "14.28571%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-8 {
+  width: "12.5%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-9 {
+  width: "11.11111%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-10 {
+  width: "10%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-11 {
+  width: "9.09091%";
+}
+
+/* line 60, ../test_sass/test_sass/sass/styles.sass */
+.col-while-12 {
+  width: "8.33333%";
+}
+
+/*# sourceMappingURL=styles.css.map */

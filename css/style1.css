@@ -1,0 +1,22 @@
+/* line 5, ../test_sass/test_sass/sass/style1.scss */
+.contenedor, .contenedor-con-altura {
+  width: 1024px;
+}
+
+/* line 11, ../test_sass/test_sass/sass/style1.scss */
+h1, h2, h3, p {
+  color: #AAAAAA;
+}
+
+/* line 14, ../test_sass/test_sass/sass/style1.scss */
+.contenedor-con-altura {
+  height: 514px;
+}
+
+/* line 18, ../test_sass/test_sass/sass/style1.scss */
+ul {
+  font-size: 1.2rem;
+  color: red;
+}
+
+/*# sourceMappingURL=style1.css.map */
